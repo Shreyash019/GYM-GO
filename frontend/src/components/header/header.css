@@ -1,0 +1,56 @@
+.header-container{
+    background-color: black;
+    width: 100%;
+    height:80px;
+    position: sticky;
+
+    float: left;
+}
+
+.head-left{
+    width: 30%;
+    height:80px;
+    float: left;
+}
+
+.head-left p{
+    color: white;
+    font-size: 1.8em;
+    font-weight: 700;
+    font-style:unset;
+    margin:5% 0% 5% 40%;
+}
+.head-left a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.head-left a:hover{
+    color: yellow;
+}
+
+.head-right{
+    width: 40%;
+    height:80px;
+    float: left;
+    display: flex;
+}
+.head-right p{
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-style:normal;
+    margin:4.1% 2% 4.1% 2%;
+}
+.head-right a{
+    color: white;
+    font-weight: 700;
+    font-style:unset;
+    margin:5% 0% 5% 40%;
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+.head-right a:hover{
+    color: red;
+}

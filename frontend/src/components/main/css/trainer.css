@@ -1,0 +1,63 @@
+.trainer-containers{
+    width:100%;
+    height:auto;
+    overflow: auto;
+}
+    .trainer-show{
+        background-color: red;
+        background-image: linear-gradient(to bottom right, red , rgb(255, 0, 149));
+        width: 100%;
+        height: 600px;
+        float: left;
+    }
+    .trainer-box{
+        background-color: white;
+        width:100%;
+        height:auto; 
+        float: left;
+        margin: 1% 0%; 
+    }
+        .trainer-box h1{
+            margin: 5% 0% 0% 0%; 
+            text-align: center; 
+        }
+        .trainer-details{
+            width: 70%;
+            height: auto;
+            margin: 2% 15%;
+            float: left;
+        }
+        .trainer-card{
+            width: 30%;
+            height: 520px;
+            background-color: white;
+            color: red;
+            float: left;
+            margin: 2.5%  1.65%;
+            border-radius: 20px;
+            background-repeat: no-repeat;
+            background-size: 100% 450px;
+            text-align: center;
+            box-shadow: 1px 4px 8px 0 rgba(125, 67, 67, 0.998);
+        }
+        .trainer-card:hover{
+            box-shadow: 1px 8px 16px 0 rgba(125, 67, 67, 0.998);
+        }
+            .trainer-card img{
+                width: 80%;
+                height: 250px;
+                margin: 5% 0% 2% 0%;
+            }
+            .trainer-card h2{
+                color: red;
+                margin: 3% 0% 5% 0%;
+            }
+            .trainer-card span{
+                font-size: 1.5em;
+                margin: 1% 3% 1% 0%;
+            }
+            .trainer-card p{
+                color: black;
+                margin:2% 5%;
+                text-align: center;
+            }
