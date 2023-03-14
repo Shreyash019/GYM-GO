@@ -30,25 +30,32 @@
     height: auto;
     float: left;
     margin: 2% 18% 5% 18%;
+
 }
+
 .classes-card{
     width: 30%;
-    height: 480px;
+    height: 380px;
     background-color: black;
     color: white;
     float: left;
     margin: 2.5%  1.65%;
     border-radius: 5px;
-    background-repeat: no-repeat;
-    background-size: 100% 450px;
+    background-size:  90% 100%;                    
+    background-repeat:   no-repeat;
+    background-position: center center; 
     box-shadow: 0 2px 4px 0 rgb(133, 48, 48);
 }
 .classes-card:hover{
     box-shadow: 1px 8px 16px 0 rgba(125, 67, 67, 0.998);
 }
+
 .class-card-details{
-    margin:95% 0% 0% 10%;
+    width: 80%;
+    margin: 85% 10% 0% 10%;
+    float:left;
 }
+
 .classes-card hr{
     width:30%;
     height:4px;
@@ -59,7 +66,7 @@
 }
 .classes-card h3{
     font-size: 1.5em;
-    margin: 2% 0%
+    margin: 2% 0%;
 }
 .classes-card span{
     font-size: 1.1em;
@@ -82,4 +89,63 @@
 }
 .classes-card button:hover{
     color: rgb(255, 0, 0);
+}
+
+/* Mobiles */
+@media screen and (max-width: 600px) {
+    .classes-title h2{
+        font-size: 3.5vw;
+        margin: 5% 36%;
+        padding: 2%;
+    }
+    .classes-title p{
+        width: 80%;
+        margin: 0% 10%;
+        font-size: 2.5vh;
+    }
+    .classes-card-conatiner{
+        width:84%;
+        margin: 5% 5.5% 25% 10.5%;
+    }
+    .classes-card{
+        width: 45%;
+        height: auto;
+        height: 230px;
+        margin: 3% 5% 3% 0%;
+        background-size:  100% 100%;                    
+        background-repeat:   no-repeat;
+        background-position: center center;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column; 
+    }
+    .classes-card hr{
+        width:35%;
+        height:3px;
+        margin: 1% 0%;
+    }
+    .classes-card h3{
+        font-size: 4vw;
+        margin: 1% 0%;
+    }
+    .classes-card span{
+        font-size: 3vw;
+        margin: 2% 0%;
+    }
+    
+    .classes-card p{
+        font-size: 2.5vw;
+        margin: 1% 0% 0% 0%;
+    }
+    
+    .classes-card button{
+        background-color: white;
+        color: black;
+        margin: 2% 0% 5%;
+        padding:3% 5%;
+        font-size: 50%;
+        border: none;
+        border-radius: 2px;;
+    }
+
 }

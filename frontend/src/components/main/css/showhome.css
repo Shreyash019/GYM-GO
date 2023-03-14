@@ -2,8 +2,9 @@
     background-color: black;
     background-repeat: none;
     width: 100%;
-    height:640px;
+    height: auto;
     float: left;
+    border:none;
 }
 .showhome-left{
     width:50%;
@@ -11,7 +12,7 @@
     color: white;
 }
 .showhome-left img{
-    margin:-5% 0% 0% 38%;
+    margin: 0% 0% 5% 38%;
     width: 58%;
     float:left;
     color: white;
@@ -50,4 +51,39 @@
     border-radius: 5px;
     border-top:0px;
     border-left: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .showhome-left{
+        width:100%;
+        float:left;
+        color: white;
+    }
+    .showhome-left img{
+        width: 70%;
+        margin: 10% 15% 10% 15%;
+        float:left;
+        color: white;
+    }
+    .showhome-right{
+        width:100%;
+        float:left;
+        color: white;
+        text-align: center;
+    }
+    .showhome-right-content{
+        color:white;
+        font-weight: 800;
+        margin: 10% 20%;
+    }
+    .showhome-right-content h1,h2{
+        color:white;
+        font-size:120%;
+        font-weight: 800;
+        margin:4% 0%
+    }
+    .showhome-right-content button{
+        font-size: 0.8em;
+        margin:10% 0% 15% 0%;
+    }
 }

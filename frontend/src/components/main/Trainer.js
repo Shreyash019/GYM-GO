@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect} from 'react';
+import React from 'react';
 import './css/trainer.css';
 import { BsFacebook,BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';

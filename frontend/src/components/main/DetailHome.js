@@ -20,7 +20,7 @@ const DetailHome = () => {
             <div className='detail-card-content'>
                 <h6><FaDumbbell/></h6>
                 <h1>WORKOUT</h1>
-                <p>With a veriety of workouts to choose from, you'll have everything you need to get into the best shape of your life.</p>
+                <p>With a veriety of workouts to choose from, you'll have every thing you need to get into the best shape of your life.</p>
             </div>
             <div className='detail-card-content'>
                 <h6><GoChecklist/></h6>

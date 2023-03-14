@@ -3,8 +3,8 @@
     width: 100%;
     height:80px;
     position: sticky;
-
     float: left;
+    top:0;
 }
 
 .head-left{
@@ -53,4 +53,38 @@
 }
 .head-right a:hover{
     color: red;
+}
+
+
+@media screen and (max-width: 600px) {
+    .header-container{
+        width: 100%;
+        height:35px;
+        top:0;
+        position: sticky;
+        float: left;
+    }
+    .head-left{
+        width: 20%;
+        float: left;
+    }
+    .head-left p{
+        color: white;
+        font-size: 0.8em;
+        font-weight: 700;
+        font-style:unset;
+        margin:15% 0% 5% 20%;
+    }
+    .head-right{
+        width: 60%;
+        height:80px;
+        float: left;
+        display: flex;
+    }
+    .head-right p{
+        color: white;
+        font-size: 0.5em;
+        font-style:normal;
+        margin:6% 1% 4.1% 0%;
+    }
 }

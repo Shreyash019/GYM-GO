@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect} from 'react';
+import React from 'react';
 import './css/schedule.css';
 import { GiBoxingGloveSurprise, Gi3DStairs, GiWeightLiftingUp, GiPerson } from "react-icons/gi";
 import { GrYoga } from "react-icons/gr";

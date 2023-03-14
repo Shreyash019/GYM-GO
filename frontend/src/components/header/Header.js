@@ -2,9 +2,6 @@ import React from 'react';
 import './header.css';
 import { Link } from "react-router-dom";
 import About from '../main/About';
-import Trainer from '../main/Trainer';
-import Pricing from '../main/Pricing';
-import Schedule from '../main/Schedule';
 
 const Header = () => {
   return (
@@ -18,8 +15,8 @@ const Header = () => {
       <p><Link to="/gallery">Gallery</Link></p>
       <p><Link to="/classes">Classes</Link></p>
       <p><Link to="/trainer" >Trainer</Link></p>
-      <p><Link to="/schedules">Schedule</Link></p>
       <p><Link to="/price">Pricing</Link></p>
+      <p><Link to="/schedules">Schedule</Link></p>
     </div>
   </div>
   )

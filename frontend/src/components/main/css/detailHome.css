@@ -45,7 +45,7 @@
 }
     .bottom-detail-top{
         width:64%;
-        height: 580px;
+        height: auto;
         float: left;
         margin: 10% 18%;
     }
@@ -123,3 +123,432 @@
         margin: 1% 20%;
         background-color: white;
     }
+
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    .detail-card-content{
+        width: 80%;
+        height:auto;
+        float: left;
+        margin: 15% 10% 0% 10%;
+    }
+    .detail-card-content h6{
+        color: red;
+        font-size: 15vw;
+    }
+    .detail-card-content h1{
+        color: black;
+        margin: 2% 5%;
+        font-size: 5vw;
+    }
+    .detail-card-content p{
+        color: black;
+        margin:5% 10% 15% 10%;
+        font-size: 4vw;
+    }
+
+    .bottom-detail-top{
+        width:100%;
+        margin: 10% 0%;
+    }
+    .bottom-detail-top-left{
+        width:70%;
+        margin: 10% 15%;
+    }
+    .bottom-deatil-head{
+        font-size: 1.2em;
+        padding: 2% 5%;
+    }
+    .bottom-detail-top-left h1{
+        margin: 10% 0% 5% 0%;
+        font-size: 125%;
+    }
+    .bottom-detail-top-left p{
+        font-size: 90%;
+    }
+    .gym-detail-icon{
+        width:20%;
+        margin: 5% 6% 10% 6%;
+        float: left;
+        text-align: center;
+    }
+    .gym-detail-icon h6{
+        font-size:350%;
+        color: red;
+    }
+    .gym-detail-icon h4{
+        font-size:60%;
+    }
+    .bottom-detail-top-left button{
+        font-size: 90%;
+        border: 3px solid rgb(131, 131, 131);
+        border-top: 0px;
+        border-left: 0px;
+    }
+    .bottom-detail-top-left button:hover{
+        border: 2px solid rgb(131, 131, 131);
+        border-top: 0px;
+        border-left: 0px;
+    }
+    .bottom-detail-top-right{
+        width:70%;
+        margin:10% 15%;
+    }
+    .bottom-detail-top-right img{
+        width:100%;
+    }
+        
+    .bottom-detail-bottom{
+        width:60%;
+        height: 300px;
+        float: left;
+        margin: 1% 20%;
+        background-color: white;
+    }
+}
+
+
+/* Mini Tablet */
+@media screen and (min-width: 600px) {
+    .detail-card-content{
+        width: 80%;
+        height:auto;
+        float: left;
+        margin: 15% 10% 0% 10%;
+    }
+    .detail-card-content h6{
+        color: red;
+        font-size: 15vw;
+    }
+    .detail-card-content h1{
+        color: black;
+        margin: 2% 5%;
+        font-size: 5vw;
+    }
+    .detail-card-content p{
+        color: black;
+        margin:5% 10% 15% 10%;
+        font-size: 4vw;
+    }
+
+    .bottom-detail-top{
+        width:100%;
+        margin: 10% 0%;
+    }
+    .bottom-detail-top-left{
+        width:70%;
+        margin: 10% 15%;
+    }
+    .bottom-deatil-head{
+        font-size: 1.2em;
+        padding: 2% 5%;
+    }
+    .bottom-detail-top-left h1{
+        margin: 10% 0% 5% 0%;
+        font-size: 125%;
+    }
+    .bottom-detail-top-left p{
+        font-size: 90%;
+    }
+    .gym-detail-icon{
+        width:20%;
+        margin: 5% 6% 10% 6%;
+        float: left;
+        text-align: center;
+    }
+    .gym-detail-icon h6{
+        font-size:350%;
+        color: red;
+    }
+    .gym-detail-icon h4{
+        font-size:60%;
+    }
+    .bottom-detail-top-left button{
+        font-size: 90%;
+        border: 3px solid rgb(131, 131, 131);
+        border-top: 0px;
+        border-left: 0px;
+    }
+    .bottom-detail-top-left button:hover{
+        border: 2px solid rgb(131, 131, 131);
+        border-top: 0px;
+        border-left: 0px;
+    }
+    .bottom-detail-top-right{
+        width:70%;
+        margin:10% 15%;
+    }
+    .bottom-detail-top-right img{
+        width:100%;
+    }
+        
+    .bottom-detail-bottom{
+        width:60%;
+        height: 300px;
+        float: left;
+        margin: 1% 20%;
+        background-color: white;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 900px) {
+    .detailHome-container{
+        width:100%;
+        height:auto;
+        overflow: auto;
+    }
+    
+    .detail-card-container-top{
+        width: 80%;
+        height:auto;
+        margin:0% 10%;
+        float: left;
+    }
+        .detail-card-content{
+            width: 27.3%;
+            height:310px;
+            float: left;
+            margin: 3% 3%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 0% 13% 8% 25%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .detail-card-content:hover{
+            box-shadow: 10px 20px 40px 0 rgba(0,0,0,0.2);
+        }
+        .detail-card-content h6{
+            color: red;
+            font-size: 5em;
+            margin: 8% 0% 0% 0%;
+        }
+        .detail-card-content h1{
+            color: black;
+            margin: 2% 0%;
+        }
+        .detail-card-content p{
+            color: black;
+            margin:3% 10%;
+            font-size: 1.2em;
+        }
+    
+    .detail-card-container-bottom{
+        width:100%;
+        height: auto;
+        float: left;
+    }
+        .bottom-detail-top{
+            width:64%;
+            height: auto;
+            float: left;
+            margin: 10% 18%;
+        }
+            .bottom-detail-top-left{
+                width:52%;
+                height: auto;
+                float: left;
+                margin: 0% 0%;
+            }
+            .bottom-deatil-head{
+                background-color: red;
+                color:white;
+                font-size: 1.6em;
+                font-weight: 900;;
+                font-family:cursive;
+                padding: 1%;
+                border-radius: 5px 10px 20px 15px;
+            }
+            .bottom-detail-top-left h1{
+                margin: 5% 0% 5% 0%;
+                color: black;
+                font-size: 2.05em;
+            }
+            .bottom-detail-top-left p{
+                margin: 0% 5% 5% 0%;
+                color: black;
+                font-size: 1.1em;
+            }
+            .gym-detail-icon{
+                width:20%;
+                margin: 5% 0% 10% 10%;
+                float: left;
+                text-align: center;
+            }
+            .gym-detail-icon h6{
+                font-size: 6em;
+                color: red;
+            }
+            .bottom-detail-top-left button{
+                background-color: black;
+                color: white;
+                margin: 2% 10% 2% 10%;
+                padding: 3% 4%;
+                font-size: 1.1em;
+                border: none;
+                border: 5px solid rgb(168, 168, 168);
+                border-radius: 5px;
+                border-top:0px;
+                border-left: 0px;
+            }
+            .bottom-detail-top-left button:hover{
+                background-color: black;
+                color: rgb(0, 255, 251);
+                border: 4px solid rgb(131, 131, 131);
+                border-top:0px;
+                border-left: 0px;
+            }
+            
+            .bottom-detail-top-right{
+                width:48%;
+                height: auto;
+                float: left;
+                margin: 0% 0%;
+            }
+                .bottom-detail-top-right img{
+                    width:99%;
+                    height: auto;
+                    margin: 0% 0%;
+                }
+    
+        .bottom-detail-bottom{
+            width:60%;
+            height: 300px;
+            float: left;
+            margin: 1% 20%;
+            background-color: white;
+        }
+    
+}
+
+/* Laptops */
+@media screen and (min-width: 1200px) {
+    .detailHome-container{
+        width:100%;
+        height:auto;
+        overflow: auto;
+    }
+    
+    .detail-card-container-top{
+        width: 80%;
+        height:auto;
+        margin:0% 10%;
+        float: left;
+    }
+        .detail-card-content{
+            width: 27.3%;
+            height:310px;
+            float: left;
+            margin: 3% 3%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 0% 13% 8% 25%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .detail-card-content:hover{
+            box-shadow: 10px 20px 40px 0 rgba(0,0,0,0.2);
+        }
+        .detail-card-content h6{
+            color: red;
+            font-size: 5em;
+            margin: 8% 0% 0% 0%;
+        }
+        .detail-card-content h1{
+            color: black;
+            margin: 2% 0%;
+            font-size: 2em;
+        }
+        .detail-card-content p{
+            color: black;
+            margin:3% 10%;
+            font-size: 1.15em;
+        }
+    
+    .detail-card-container-bottom{
+        width:100%;
+        height: auto;
+        float: left;
+    }
+        .bottom-detail-top{
+            width:64%;
+            height: auto;
+            float: left;
+            margin: 10% 18%;
+        }
+            .bottom-detail-top-left{
+                width:52%;
+                height: auto;
+                float: left;
+                margin: 0% 0%;
+            }
+            .bottom-deatil-head{
+                background-color: red;
+                color:white;
+                font-size: 1.6em;
+                font-weight: 900;;
+                font-family:cursive;
+                padding: 1%;
+                border-radius: 5px 10px 20px 15px;
+            }
+            .bottom-detail-top-left h1{
+                margin: 5% 0% 5% 0%;
+                color: black;
+                font-size: 2.05em;
+            }
+            .bottom-detail-top-left p{
+                margin: 0% 5% 5% 0%;
+                color: black;
+                font-size: 1.1em;
+            }
+            .gym-detail-icon{
+                width:20%;
+                margin: 5% 0% 10% 10%;
+                float: left;
+                text-align: center;
+            }
+            .gym-detail-icon h6{
+                font-size: 6em;
+                color: red;
+            }
+            .bottom-detail-top-left button{
+                background-color: black;
+                color: white;
+                margin: 2% 10% 2% 10%;
+                padding: 3% 4%;
+                font-size: 1.1em;
+                border: none;
+                border: 5px solid rgb(168, 168, 168);
+                border-radius: 5px;
+                border-top:0px;
+                border-left: 0px;
+            }
+            .bottom-detail-top-left button:hover{
+                background-color: black;
+                color: rgb(0, 255, 251);
+                border: 4px solid rgb(131, 131, 131);
+                border-top:0px;
+                border-left: 0px;
+            }
+            
+            .bottom-detail-top-right{
+                width:48%;
+                height: auto;
+                float: left;
+                margin: 0% 0%;
+            }
+                .bottom-detail-top-right img{
+                    width:99%;
+                    height: auto;
+                    margin: 0% 0%;
+                }
+    
+        .bottom-detail-bottom{
+            width:60%;
+            height: 300px;
+            float: left;
+            margin: 1% 20%;
+            background-color: white;
+        }
+    
+}
