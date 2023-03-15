@@ -70,3 +70,34 @@
     margin: 1% 0%;
 }
 
+
+
+
+@media screen and (max-width: 600px) {
+    .schedule-box{
+        width: 70%;
+        margin: 10% 15%;
+    }
+    .schedule-box h1{
+        font-size: 8vw;
+    }
+    .schedule-card{
+        width:44%;
+        height: 250px;
+        margin: 5% 2.5% 2% 2.5%;            
+    }
+    .schedule-card h3{
+        font-size: 25vw;
+        padding: 5% 1% 0%;
+    }
+    .schedule-card h2{
+        font-size: 6vw;
+    }
+    
+    .schedule-card p{
+        color: black;
+        text-align: center;
+        font-size: 3vw;
+        padding: 4%;
+    }
+}
