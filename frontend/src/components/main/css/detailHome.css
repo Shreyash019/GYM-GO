@@ -3,92 +3,41 @@
     height:auto;
     overflow: auto;
 }
-
 .detail-card-container-top{
     width: 80%;
     height:auto;
     margin:0% 10%;
     float: left;
 }
-    .detail-card-content{
+.detail-card-content{
         width: 27.3%;
-        height:310px;
+        height:auto;
         float: left;
         margin: 3% 3%;
         background-color: rgb(255, 255, 255);
         border-radius: 0% 13% 8% 25%;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         text-align: center;
-    }
-    .detail-card-content:hover{
-        box-shadow: 10px 20px 40px 0 rgba(0,0,0,0.2);
-        background-color: rgb(250, 249, 215);
-    }
-    .detail-card-content h6{
-        color: red;
-        font-size: 5em;
-        margin: 8% 0% 0% 0%;
-    }
-    .detail-card-content h1{
-        color: black;
-        margin: 2% 0%;
-    }
-    .detail-card-content p{
-        color: black;
-        margin:3% 10%;
-        font-size: 1.2em;
-    }
-
+}
+.detail-card-content:hover{
+    box-shadow: 10px 20px 40px 0 rgba(0,0,0,0.2);
+    background-color: rgb(250, 249, 215);
+}
 .detail-card-container-bottom{
     width:100%;
     height: auto;
     float: left;
 }
-    .bottom-detail-top{
-        width:64%;
-        height: auto;
-        float: left;
-        margin: 10% 18%;
-    }
-        .bottom-detail-top-left{
-            width:52%;
-            height: auto;
-            float: left;
-            margin: 0% 0%;
-        }
-        .bottom-deatil-head{
+.bottom-deatil-head{
             background-color: red;
             color:white;
-            font-size: 1.6em;
             font-weight: 900;;
-            font-family:cursive;
-            padding: 1%;
             border-radius: 5px 10px 20px 15px;
-        }
-        .bottom-detail-top-left h1{
-            margin: 5% 0% 5% 0%;
-            color: black;
-            font-size: 2.05em;
-        }
-        .bottom-detail-top-left p{
-            margin: 0% 5% 5% 0%;
-            color: black;
-            font-size: 1.1em;
-        }
-        .bottom-detail-top-left h4{
-            font-size: 1.6em;
-        }
-        .gym-detail-icon{
-            width:20%;
-            margin: 5% 0% 10% 10%;
-            float: left;
-            text-align: center;
-        }
-        .gym-detail-icon h6{
-            font-size: 6em;
-            color: red;
-        }
-        .bottom-detail-top-left button{
+}
+.gym-detail-icon{
+    float: left;
+}
+.bottom-detail-top-left button{
             background-color: black;
             color: white;
             margin: 2% 10% 2% 10%;
@@ -99,40 +48,38 @@
             border-radius: 5px;
             border-top:0px;
             border-left: 0px;
-        }
-        .bottom-detail-top-left button:hover{
+}
+.bottom-detail-top-left button:hover{
             background-color: black;
             color: rgb(0, 255, 251);
             border: 2.5px solid rgb(131, 131, 131);
             border-top:0px;
             border-left: 0px;
-        }
-        .bottom-detail-top-left a{
+}
+.bottom-detail-top-left a{
             color: white;
-        }
-        .bottom-detail-top-left a:hover{
+}
+.bottom-detail-top-left a:hover{
             color: rgb(0, 255, 251);
-        }
-        
-        .bottom-detail-top-right{
+}       
+.bottom-detail-top-right{
             width:48%;
             height: auto;
             float: left;
             margin: 0% 0%;
-        }
-            .bottom-detail-top-right img{
+}
+.bottom-detail-top-right img{
                 width:99%;
                 height: auto;
                 margin: 0% 0%;
-            }
-
-    .bottom-detail-bottom{
+}
+.bottom-detail-bottom{
         width:60%;
         height: 300px;
         float: left;
         margin: 1% 20%;
         background-color: white;
-    }
+}
 
 
 /* Mobile */
@@ -157,7 +104,6 @@
         margin:5% 5% 15% 5%;
         font-size: 3vw;
     }
-
     .bottom-detail-top{
         width:100%;
         margin: 10% 0%;
@@ -173,8 +119,11 @@
     .bottom-detail-top-left h1{
         margin: 10% 0% 5% 0%;
         font-size: 125%;
+        color: black;
     }
     .bottom-detail-top-left p{
+        margin: 0% 5% 5% 0%;
+        color: black;
         font-size: 90%;
     }
     .gym-detail-icon{
@@ -188,7 +137,7 @@
         color: red;
     }
     .gym-detail-icon h4{
-        font-size:60%;
+        font-size:2vw;
     }
     .bottom-detail-top-left button{
         font-size: 90%;
@@ -207,8 +156,8 @@
     }
     .bottom-detail-top-right img{
         width:100%;
-    }
-        
+        margin: 0% 0% 20%;
+    }     
     .bottom-detail-bottom{
         width:60%;
         height: 300px;
@@ -220,65 +169,66 @@
 
 
 /* Mini Tablet */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 601px) {
     .detail-card-content{
-        width: 80%;
-        height:auto;
-        float: left;
-        margin: 15% 10% 0% 10%;
+        width: 60%;
+        margin: 10% 20% 0% 20%;
     }
     .detail-card-content h6{
         color: red;
-        font-size: 15vw;
+        font-size: 13.5vw;
     }
     .detail-card-content h1{
         color: black;
         margin: 2% 5%;
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .detail-card-content p{
         color: black;
         margin:5% 10% 15% 10%;
-        font-size: 4vw;
+        font-size: 3vw;
     }
-
     .bottom-detail-top{
         width:100%;
         margin: 10% 0%;
     }
     .bottom-detail-top-left{
         width:70%;
-        margin: 10% 15%;
-    }
-    .bottom-deatil-head{
-        font-size: 1.2em;
-        padding: 2% 5%;
-    }
-    .bottom-detail-top-left h1{
-        margin: 10% 0% 5% 0%;
-        font-size: 125%;
-    }
-    .bottom-detail-top-left p{
-        font-size: 90%;
-    }
-    .gym-detail-icon{
-        width:20%;
-        margin: 5% 6% 10% 6%;
-        float: left;
+        margin: 5% 15%;
         text-align: center;
     }
+    .bottom-deatil-head{
+        font-size: 3vw;
+        padding: 1% 4%;
+    }
+    .bottom-detail-top-left h1{
+        margin: 8% 0% 5% 0%;
+        font-size: 3vw;
+        color: black;
+    }
+    .bottom-detail-top-left p{
+        font-size: 2.5vw;
+        margin: 3% 6%;
+        color: black;
+    }
+    .gym-detail-icon{
+        width:25%;
+        margin: 5% 4.1% 10% 4.2%;
+    }
     .gym-detail-icon h6{
-        font-size:350%;
+        font-size:12vw;
         color: red;
     }
     .gym-detail-icon h4{
-        font-size:60%;
+        font-size:2vw;
     }
     .bottom-detail-top-left button{
-        font-size: 90%;
+        font-size: 2.5vw;
+        padding:2.5% 4%;
         border: 3px solid rgb(131, 131, 131);
         border-top: 0px;
         border-left: 0px;
+        float: left;
     }
     .bottom-detail-top-left button:hover{
         border: 2px solid rgb(131, 131, 131);
@@ -292,276 +242,163 @@
     .bottom-detail-top-right img{
         width:100%;
     }
-        
-    .bottom-detail-bottom{
-        width:60%;
-        height: 300px;
-        float: left;
-        margin: 1% 20%;
-        background-color: white;
-    }
 }
 
 /* Tablet */
 @media screen and (min-width: 900px) {
-    .detailHome-container{
-        width:100%;
-        height:auto;
-        overflow: auto;
+    .detail-card-content{
+        float: left;
+        width: 40%;
+        margin: 5% 5% 0% 5%;
     }
-    
-    .detail-card-container-top{
-        width: 80%;
-        height:auto;
-        margin:0% 10%;
+    .detail-card-content h6{
+        color: red;
+        font-size: 10vw;
+    }
+    .detail-card-content h1{
+        color: black;
+        margin: 2% 5%;
+        font-size: 3vw; 
+    }
+    .detail-card-content p{
+        color: black;
+        margin:5% 10% 15% 10%;
+        font-size: 2vw;
+    }
+    .bottom-detail-top{
+        width:100%;
+        margin: 10% 0%;
+    }
+    .bottom-detail-top-left{
+        width:70%;
+        margin: 5% 15%;
+        text-align: center;
+    }
+    .bottom-deatil-head{
+        font-size: 3vw;
+        padding: 1% 4%;
+    }
+    .bottom-detail-top-left h1{
+        margin: 8% 0% 5% 0%;
+        font-size: 3vw;
+        color: black;
+    }
+    .bottom-detail-top-left p{
+        font-size: 2.5vw;
+        margin: 3% 6%;
+        color: black;
+    }
+    .gym-detail-icon{
+        width:25%;
+        margin: 5% 4.1% 10% 4.2%;
+    }
+    .gym-detail-icon h6{
+        font-size:12vw;
+        color: red;
+    }
+    .gym-detail-icon h4{
+        font-size:2vw;
+    }
+    .bottom-detail-top-left button{
+        font-size: 2.5vw;
+        padding:1.5% 4%;
+        border: 3px solid rgb(131, 131, 131);
+        border-top: 0px;
+        border-left: 0px;
         float: left;
     }
-        .detail-card-content{
-            width: 27.3%;
-            height:310px;
-            float: left;
-            margin: 3% 3%;
-            background-color: rgb(255, 255, 255);
-            border-radius: 0% 13% 8% 25%;
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-            text-align: center;
-        }
-        .detail-card-content:hover{
-            box-shadow: 10px 20px 40px 0 rgba(0,0,0,0.2);
-        }
-        .detail-card-content h6{
-            color: red;
-            font-size: 5em;
-            margin: 8% 0% 0% 0%;
-        }
-        .detail-card-content h1{
-            color: black;
-            margin: 2% 0%;
-        }
-        .detail-card-content p{
-            color: black;
-            margin:3% 10%;
-            font-size: 1.2em;
-        }
-    
-    .detail-card-container-bottom{
-        width:100%;
-        height: auto;
-        float: left;
+    .bottom-detail-top-left button:hover{
+        border: 2px solid rgb(131, 131, 131);
+        border-top: 0px;
+        border-left: 0px;
     }
-        .bottom-detail-top{
-            width:64%;
-            height: auto;
-            float: left;
-            margin: 10% 18%;
-        }
-            .bottom-detail-top-left{
-                width:52%;
-                height: auto;
-                float: left;
-                margin: 0% 0%;
-            }
-            .bottom-deatil-head{
-                background-color: red;
-                color:white;
-                font-size: 1.6em;
-                font-weight: 900;;
-                font-family:cursive;
-                padding: 1%;
-                border-radius: 5px 10px 20px 15px;
-            }
-            .bottom-detail-top-left h1{
-                margin: 5% 0% 5% 0%;
-                color: black;
-                font-size: 2.05em;
-            }
-            .bottom-detail-top-left p{
-                margin: 0% 5% 5% 0%;
-                color: black;
-                font-size: 1.1em;
-            }
-            .gym-detail-icon{
-                width:20%;
-                margin: 5% 0% 10% 10%;
-                float: left;
-                text-align: center;
-            }
-            .gym-detail-icon h6{
-                font-size: 6em;
-                color: red;
-            }
-            .bottom-detail-top-left button{
-                background-color: black;
-                color: white;
-                margin: 2% 10% 2% 10%;
-                padding: 3% 4%;
-                font-size: 1.1em;
-                border: none;
-                border: 5px solid rgb(168, 168, 168);
-                border-radius: 5px;
-                border-top:0px;
-                border-left: 0px;
-            }
-            .bottom-detail-top-left button:hover{
-                background-color: black;
-                color: rgb(0, 255, 251);
-                border: 4px solid rgb(131, 131, 131);
-                border-top:0px;
-                border-left: 0px;
-            }
-            
-            .bottom-detail-top-right{
-                width:48%;
-                height: auto;
-                float: left;
-                margin: 0% 0%;
-            }
-                .bottom-detail-top-right img{
-                    width:99%;
-                    height: auto;
-                    margin: 0% 0%;
-                }
-    
-        .bottom-detail-bottom{
-            width:60%;
-            height: 300px;
-            float: left;
-            margin: 1% 20%;
-            background-color: white;
-        }
-    
+    .bottom-detail-top-right{
+        width:70%;
+        margin:2% 15%;
+    }
+    .bottom-detail-top-right img{
+        width:100%;
+    }
 }
 
 /* Laptops */
 @media screen and (min-width: 1200px) {
-    .detailHome-container{
-        width:100%;
-        height:auto;
-        overflow: auto;
-    }
-    
-    .detail-card-container-top{
-        width: 80%;
-        height:auto;
-        margin:0% 10%;
-        float: left;
-    }
-        .detail-card-content{
+    .detail-card-content{
             width: 27.3%;
-            height:310px;
+            min-height:250px;
             float: left;
             margin: 3% 3%;
-            background-color: rgb(255, 255, 255);
-            border-radius: 0% 13% 8% 25%;
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-            text-align: center;
-        }
-        .detail-card-content:hover{
-            box-shadow: 10px 20px 40px 0 rgba(0,0,0,0.2);
-        }
-        .detail-card-content h6{
+    }
+    .detail-card-content h6{
             color: red;
-            font-size: 5em;
-            margin: 8% 0% 0% 0%;
-        }
-        .detail-card-content h1{
+            font-size: 12vh;
+            margin: 5% 0% 0% 0%;
+    }
+    .detail-card-content h1{
             color: black;
             margin: 2% 0%;
-            font-size: 2em;
-        }
-        .detail-card-content p{
+            font-size: 1.8vw;
+    }
+    .detail-card-content p{
             color: black;
-            margin:3% 10%;
-            font-size: 1.15em;
-        }
-    
+            margin:1% 9% 15%;
+            font-size: 1.2vw;
+    }   
     .detail-card-container-bottom{
         width:100%;
         height: auto;
         float: left;
+        text-align: left;
     }
-        .bottom-detail-top{
-            width:64%;
+    .bottom-detail-top{
+            width:70%;
             height: auto;
             float: left;
-            margin: 10% 18%;
-        }
-            .bottom-detail-top-left{
-                width:52%;
-                height: auto;
-                float: left;
-                margin: 0% 0%;
-            }
-            .bottom-deatil-head{
-                background-color: red;
-                color:white;
-                font-size: 1.6em;
-                font-weight: 900;;
-                font-family:cursive;
-                padding: 1%;
-                border-radius: 5px 10px 20px 15px;
-            }
-            .bottom-detail-top-left h1{
-                margin: 5% 0% 5% 0%;
-                color: black;
-                font-size: 2.05em;
-            }
-            .bottom-detail-top-left p{
-                margin: 0% 5% 5% 0%;
-                color: black;
-                font-size: 1.1em;
-            }
-            .bottom-detail-top-left h4{
-                font-size: 0.8em;
-            }
-            .gym-detail-icon{
-                width:20%;
-                margin: 5% 0% 10% 10%;
-                float: left;
-                text-align: center;
-            }
-            .gym-detail-icon h6{
-                font-size: 6em;
-                color: red;
-            }
-            .bottom-detail-top-left button{
+            margin: 10% 15%;
+    }
+    .bottom-detail-top-left{
+        width:52%;
+        height: auto;
+        float: left;
+        margin: 0% 0%;
+        text-align: left;
+    }
+    .bottom-deatil-head{
+        font-size: 2vw;
+        padding: 0.5% 4%;
+    }
+    .bottom-detail-top-left h1{
+        margin: 5% 0% 5% 0%;
+        color: black;
+        font-size: 2.1vw;
+    }
+    .bottom-detail-top-left p{
+        margin: 0% 0% 5% 0%;
+        font-size: 1.3vw;
+        color: black;
+    }
+    .bottom-detail-top-left h4{
+        font-size: 1vw;
+    }
+    .gym-detail-icon{
+        width:20%;
+        margin: 5% 0% 10% 10%;
+        float: left;
+        text-align: center;
+    }
+    .gym-detail-icon h6{
+        font-size: 6vw;
+        color: red;
+    }
+    .bottom-detail-top-left button{
                 background-color: black;
                 color: white;
                 margin: 2% 10% 2% 10%;
-                padding: 3% 4%;
-                font-size: 1.1em;
-                border: none;
-                border: 3px solid rgb(168, 168, 168);
-                border-radius: 5px;
-                border-top:0px;
-                border-left: 0px;
-            }
-            .bottom-detail-top-left button:hover{
-                background-color: black;
-                color: rgb(0, 255, 251);
-                border: 2.5px solid rgb(131, 131, 131);
-                border-top:0px;
-                border-left: 0px;
-            }
-            
-            .bottom-detail-top-right{
+                padding: 2% 4%;
+                font-size: 1.1vw;
+    }           
+    .bottom-detail-top-right{
                 width:48%;
-                height: auto;
-                float: left;
                 margin: 0% 0%;
-            }
-                .bottom-detail-top-right img{
-                    width:99%;
-                    height: auto;
-                    margin: 0% 0%;
-                }
-    
-        .bottom-detail-bottom{
-            width:60%;
-            height: 300px;
-            float: left;
-            margin: 1% 20%;
-            background-color: white;
-        }
-    
+    }
 }

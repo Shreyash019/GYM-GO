@@ -14,11 +14,6 @@ const DetailHome = () => {
     <div className='detailHome-container'>
         <div className='detail-card-container-top'>
             <div className='detail-card-content'>
-                <h6><GiProgression/></h6>
-                <h1>PROGRESSION</h1>
-                <p>Our team of experts will work with you to create a customized plan that helps you achieve success one step at a time.</p> 
-            </div>
-            <div className='detail-card-content'>
                 <h6><FaDumbbell/></h6>
                 <h1>WORKOUT</h1>
                 <p>With a veriety of workouts to choose from, you'll have every thing you need to get into the best shape of your life.</p>
@@ -27,6 +22,11 @@ const DetailHome = () => {
                 <h6><GoChecklist/></h6>
                 <h1>NUTRITIONS</h1>
                 <p>Out team will work with you to create a personilized meal plan that helps you reach your specific health.</p>
+            </div>
+            <div className='detail-card-content'>
+                <h6><GiProgression/></h6>
+                <h1>PROGRESSION</h1>
+                <p>Our team of experts will work with you to create a customized plan that helps you achieve success one step at a time.</p> 
             </div>
         </div>
         <div className='detail-card-container-bottom'>
