@@ -41,9 +41,12 @@
     float: left;
     margin: 2.5%  1.65%;
     border-radius: 5px;
-    background-size:  90% 100%;                    
+    background-size:  95% 100%;                                      
     background-repeat:   no-repeat;
-    background-position: center center; 
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column; 
     box-shadow: 0 2px 4px 0 rgb(133, 48, 48);
 }
 .classes-card:hover{

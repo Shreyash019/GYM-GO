@@ -2,8 +2,7 @@ import React from 'react';
 import './css/trainer.css';
 import { BsFacebook,BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
-
-// import {CreateContext} from '../DataContext';
+import trainer1 from '../img/trainer1.png';
 
 const Trainer = () => {
   const objTrainer = [
@@ -74,6 +73,12 @@ const Trainer = () => {
   return (
     <div className='trainer-containers'>
       <div className='trainer-show'>
+        <div className='trainer-show-left'>
+          <img src={trainer1} alt='trainer'/>
+        </div>
+        <div className='trainer-show-right'>
+          <h1>We Have Best Trainers</h1>
+        </div>
       </div>
       <div className='trainer-box'>
         <h1>Trainers</h1>

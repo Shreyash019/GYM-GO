@@ -22,6 +22,7 @@
     }
     .detail-card-content:hover{
         box-shadow: 10px 20px 40px 0 rgba(0,0,0,0.2);
+        background-color: rgb(250, 249, 215);
     }
     .detail-card-content h6{
         color: red;
@@ -74,6 +75,9 @@
             color: black;
             font-size: 1.1em;
         }
+        .bottom-detail-top-left h4{
+            font-size: 1.6em;
+        }
         .gym-detail-icon{
             width:20%;
             margin: 5% 0% 10% 10%;
@@ -91,7 +95,7 @@
             padding: 3% 4%;
             font-size: 1.1em;
             border: none;
-            border: 5px solid rgb(168, 168, 168);
+            border: 3px solid rgb(168, 168, 168);
             border-radius: 5px;
             border-top:0px;
             border-left: 0px;
@@ -99,9 +103,15 @@
         .bottom-detail-top-left button:hover{
             background-color: black;
             color: rgb(0, 255, 251);
-            border: 4px solid rgb(131, 131, 131);
+            border: 2.5px solid rgb(131, 131, 131);
             border-top:0px;
             border-left: 0px;
+        }
+        .bottom-detail-top-left a{
+            color: white;
+        }
+        .bottom-detail-top-left a:hover{
+            color: rgb(0, 255, 251);
         }
         
         .bottom-detail-top-right{
@@ -128,10 +138,10 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
     .detail-card-content{
-        width: 80%;
+        width: 70%;
         height:auto;
         float: left;
-        margin: 15% 10% 0% 10%;
+        margin: 15% 50% 0% 15%;
     }
     .detail-card-content h6{
         color: red;
@@ -140,12 +150,12 @@
     .detail-card-content h1{
         color: black;
         margin: 2% 5%;
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .detail-card-content p{
         color: black;
-        margin:5% 10% 15% 10%;
-        font-size: 4vw;
+        margin:5% 5% 15% 5%;
+        font-size: 3vw;
     }
 
     .bottom-detail-top{
@@ -501,6 +511,9 @@
                 color: black;
                 font-size: 1.1em;
             }
+            .bottom-detail-top-left h4{
+                font-size: 0.8em;
+            }
             .gym-detail-icon{
                 width:20%;
                 margin: 5% 0% 10% 10%;
@@ -518,7 +531,7 @@
                 padding: 3% 4%;
                 font-size: 1.1em;
                 border: none;
-                border: 5px solid rgb(168, 168, 168);
+                border: 3px solid rgb(168, 168, 168);
                 border-radius: 5px;
                 border-top:0px;
                 border-left: 0px;
@@ -526,7 +539,7 @@
             .bottom-detail-top-left button:hover{
                 background-color: black;
                 color: rgb(0, 255, 251);
-                border: 4px solid rgb(131, 131, 131);
+                border: 2.5px solid rgb(131, 131, 131);
                 border-top:0px;
                 border-left: 0px;
             }

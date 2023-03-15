@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/schedule.css';
+import schdl from '../img/schdl.gif';
 import { GiBoxingGloveSurprise, Gi3DStairs, GiWeightLiftingUp, GiPerson } from "react-icons/gi";
 import { GrYoga } from "react-icons/gr";
 import { BiCycling } from "react-icons/bi";
@@ -70,22 +71,27 @@ const Schedule = () => {
 
   return (
     <div className='schedule-container'>
-    <div className='pring-show'>
-      <div>
-
-      </div>
+    <div className='schedule-show'>
+    <div className='schedule-show-left'>
+          <img src={schdl} alt='schedule_gif'/>
+        </div>
+        <div className='schedule-show-right'>
+        </div>
     </div>
     <div className='schedule-box'>
     <h1>Schedules</h1>
+    <br/>
       {
         objSchedule.map((data)=>{
           return (
-            <div className='schedule-card' key={data.id}>
-              <h3>{data.symbol}</h3>
-              <h2>{data.classG}</h2>
-              <p><GiPerson/>{data.trainers}</p>
-              <p>🕜 {data.time}</p>
-            </div>
+            <p className='' key={data.id}>
+              <h5 style={{width: "25%"}}>{data.classG} {data.symbol}</h5>
+              <h5 style={{width: "40%"}}><GiPerson/> {data.trainers}</h5>
+                 <h5>🕜 {data.time}</h5>
+                 <div className='schedule-button'>
+                    <button onClick={()=>alert(`Successfully booked ${data.classG}`)}>Book</button>
+                 </div>
+              </p>
           )
         })
       }

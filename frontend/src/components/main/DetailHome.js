@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './css/detailHome.css';
 import FitnessI from '../img/detImg.png';
 import { GiProgression, GiStrongMan } from "react-icons/gi";
@@ -37,7 +38,7 @@ const DetailHome = () => {
                     <div className='gym-detail-icon'><h6><GiStrongMan/></h6><h4>PROFESSIONAL TRAINER</h4></div>
                     <div className='gym-detail-icon'><h6><BiDumbbell/></h6><h4>GYM EQUIPMENT</h4></div>
                     <div className='gym-detail-icon'><h6><SiOpenaigym/></h6><h4>MODERN MACHINES</h4></div>
-                    <button>Take a Tour</button>
+                    <button><Link to='/gallery'>Take a Tour</Link></button>
                 </div>
                 <div className='bottom-detail-top-right'>
                     <img src={FitnessI} alt='Fitness' />
