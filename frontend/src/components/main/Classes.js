@@ -22,7 +22,7 @@ const Classes = () => {
           <div className="class-card-details"> 
               <h3>Cycling</h3>
               <hr/>
-              <span>Rohan Roy & Akriti Kashayp</span><p>🕧 7:00 AM</p>
+              <span>Rohan Roy</span><p>🕧 7:00 AM</p>
               <button>Join Now</button>
             </div>
         </div>
