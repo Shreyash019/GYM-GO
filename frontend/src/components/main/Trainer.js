@@ -77,7 +77,9 @@ const Trainer = () => {
           <img src={trainer1} alt='trainer'/>
         </div>
         <div className='trainer-show-right'>
-          <h1>We Have Best Trainers</h1>
+          <h3>Ready to get in shape?</h3>
+          <h2>Join our fitness community today!</h2>
+          <h3>We love helping people reach their fitness goals!</h3>
         </div>
       </div>
       <div className='trainer-box'>

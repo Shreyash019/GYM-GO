@@ -33,7 +33,7 @@
     float: left;
 }
 .pricing-box h1{
-    font-size: 2.5em;
+    font-size: 3vw;
     text-align: center;
     color: black;
 }
@@ -55,17 +55,17 @@
     background-color: red;
     color: white;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5vw;
     width: 100%;
-    margin: 0% 0% 5% 0%;
-    padding: 4% 0%;
+    margin: 0% 0% 1% 0%;
+    padding: 2% 0%;
     border: none;
     border-radius: 20px 20px 0px 0px;
 }
 
 .pricing-card h6{
     color: black;
-    font-size: 1.1em;
+    font-size: 1.2vw;
     width: 80%;
     margin: 0% 10% 0% 8%;
     padding: 2%;
@@ -75,19 +75,19 @@
     width: 50%;
     text-align: center;
     color: black;
-    font-size: 1.1em;
-    padding: 2%;
+    font-size: 1vw;
+    padding: 1%;
     border: 2px solid rgb(212, 212, 212);
     border-left: 0px;
     border-right: 0px;
-    margin: 1% 0%;
+    margin: 0% 0%;
 }
 
 .pricing-card h5{
     color: black;
-    font-size: 1em;
+    font-size: 1vw;
     width: 80%;
-    margin: 2% 10% 0% 10%;
+    margin: 1% 10% 0% 10%;
     padding: 2%;
     border: none;
 }
@@ -96,17 +96,17 @@
     background-color: greenyellow;
     color: rgb(99, 35, 35);
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1vw;
     width: 50%;
     margin: 8% 25% 2% 25%;
     padding: 2%;
-    border: 3px solid rgb(168, 158, 158);
+    border: 2px solid rgb(168, 158, 158);
     border-top:0px;
     border-left: 0px;
-    
+    border-radius: 5px;;
 }
 .pricing-card b{
-    font-size: 1.2em;
+    font-size: 1vw;
     font-weight: 600;
 }
 .pricing-card button:hover{
@@ -116,15 +116,12 @@
 }
 
 @media screen and (max-width: 600px) {
-
     .pricing-box{
-        width: 90%;
-        height: auto;
-        margin: 5% 5%;
-        float: left;
+        width: 80%;
+        margin: 5% 10%;
     } 
     .pricing-box h1{
-        font-size: 8vw;
+        font-size: 7vw;
     }
     .pricing-card{
         width: 60%;
@@ -132,14 +129,14 @@
         margin: 5% 20% 2% 20%;            
     }
     .pricing-card h2{
-        font-size: 5vw;
+        font-size: 3vw;
         margin: 0% 0% 5% 0%;
-        padding: 1% 0%;
+        padding: 1.5% 0%;
     }
     
     .pricing-card h6{
-        font-size:2.5vw;
-        padding: 1%;
+        font-size:2vw;
+        padding: 0%;
     }
     .pricing-card p{
         width: 50%;
@@ -159,7 +156,6 @@
     }
     
     .pricing-card button{
-        font-size: 3vw;
         width: 50%;
         padding: 1%;
         border: 2px solid rgb(168, 158, 158);
@@ -167,7 +163,115 @@
         border-left: 0px;
     }
     .pricing-card b{
-        font-size: 1.2em;
+        font-size: 2.5vw;
         font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .pricing-box{
+        width: 70%;
+        margin: 5% 15%;
+    } 
+    .pricing-box h1{
+        font-size: 6vw;
+    }
+    .pricing-card{
+        width: 40%;
+        height: auto;
+        margin: 5% 5% 2% 5%;          
+    }
+    .pricing-card h2{
+        font-size: 2.5vw;
+        margin: 0% 0% 5% 0%;
+        padding: 1.5% 0%;
+    }
+    
+    .pricing-card h6{
+        font-size:1vw;
+        padding: 0%;
+    }
+    .pricing-card p{
+        width: 50%;
+        font-size:2vw;
+        padding: 0%;
+        border: 1px solid rgb(212, 212, 212);
+        border-left: 0px;
+        border-right: 0px;
+        margin: 0% 0%;
+    }
+    
+    .pricing-card h5{
+        font-size: 1.5vw;
+        margin: 1% 10% 0% 10%;
+        padding: 1%;
+        border: none;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .pricing-box h1{
+        font-size: 3vw;
+    }
+    .pricing-card{
+        width: 25%;
+        margin: 5% 4% 2% 4%;            
+    }
+    .pricing-card h2{
+        font-size: 1.5vw;
+    }
+    
+    .pricing-card h6{
+        padding: 1%;
+    }
+    .pricing-card p{
+        width: 50%;
+        font-size: 1vw;
+        padding: 1%;
+    }
+    .pricing-card h5{
+        color: black;
+        font-size: 1vw;
+        padding: 2%;
+    }
+    .pricing-card button{
+        font-size: 1vw;
+        width: 50%;
+        margin: 8% 25% 2% 25%;
+        padding: 2%;;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .pricing-box h1{
+        font-size: 3vw;
+    }
+    .pricing-card{
+        width: 25%;
+        margin: 5% 4% 2% 4%;            
+    }
+    .pricing-card h2{
+        font-size: 1.5vw;
+    }
+    
+    .pricing-card h6{
+        padding: 1%;
+    }
+    .pricing-card p{
+        width: 50%;
+        font-size: 1vw;
+        padding: 1%;
+    }
+    .pricing-card h5{
+        color: black;
+        font-size: 1vw;
+        padding: 2%;
+    }
+    .pricing-card button{
+        font-size: 1vw;
+        width: 50%;
+        margin: 8% 25% 2% 25%;
+        padding: 2%;;
     }
 }

@@ -3,44 +3,39 @@
     height: auto;
     overflow: auto;
 }
-
 .schedule-show{
     background-color: rgb(117,152,161);
     width: 100%;
     height: auto;
     float: left;
 }
-
 .schedule-box{
     width: 60%;
     height: auto;
     margin: 5% 20%;
     float: left;
 }
-    .schedule-show-left{
-        width:50%;
-        float:left;
-    }
-    .schedule-show-left img{
-        margin: 0% 0% 0% 0%;
-        width: 100%;
-        float:left;
-        color: white;
-    }
-    .schedule-show-right{
-        background-color: aquamarine;
-        width:50%;
-        float:left;
-        color: white;
-    }
-
-
+.schedule-show-left{
+    width:50%;
+    float:left;
+}
+.schedule-show-left img{
+    margin: 0% 0% 0% 0%;
+    width: 100%;
+    float:left;
+    color: white;
+}
+.schedule-show-right{
+    background-color: aquamarine;
+    width:50%;
+    float:left;
+    color: white;
+}
 .schedule-box h1{
     font-size: 2.2em;
     text-align: center;
     color: black;
 }
-
 .schedule-box p{
     width:100%;
     display: flex;
@@ -73,18 +68,16 @@
 
 
 
-
-
 @media screen and (max-width: 600px) {
     .schedule-box{
-        width: 80%;
-        margin: 10% 10%;
+        width: 75%;
+        margin: 10% 12.5%;
     }
     .schedule-box h1{
-        font-size: 8vw;
+        font-size: 5vw;
     }
     .schedule-box h5{
-        font-size: 2vw;
+        font-size: 1.9vw;
         color: rgb(4, 4, 137);
     }
     .schedule-button{
@@ -92,10 +85,84 @@
     }
     .schedule-box button{
         color: white;
-        font-size: 2vw;
+        font-size: 1vw;
+        padding: 10% 5%;
+        border-radius: 5px;
+        margin-top: 55%;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .schedule-box{
+        width: 70%;
+        margin: 10% 15%;
+    }
+    .schedule-box h1{
+        font-size: 5vw;
+    }
+    .schedule-box h5{
+        font-size: 1.5vw;
+        color: rgb(4, 4, 137);
+    }
+    .schedule-button{
+        width: 10%;
+    }
+    .schedule-box button{
+        color: white;
+        font-size: 1.5vw;
         padding: 10% 10%;
         border-radius: 5px;
-        margin-top: 40%;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .schedule-box{
+        width: 70%;
+        margin: 10% 15%;
+    }
+    .schedule-box h1{
+        font-size: 4vw;
+    }
+    .schedule-box h5{
+        font-size: 1.5vw;
+        color: rgb(4, 4, 137);
+    }
+    .schedule-button{
+        width: 10%;
+    }
+    .schedule-box button{
+        color: white;
+        font-size: 1vw;
+        padding: 10% 10%;
+        border-radius: 5px;
+        margin-top: 20%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .schedule-box{
+        width: 60%;
+        margin: 10% 20%;
+    }
+    .schedule-box h1{
+        font-size: 3vw;
+    }
+    .schedule-box h5{
+        font-size: 1.2vw;
+        color: rgb(4, 4, 137);
+    }
+    .schedule-button{
+        width: 10%;
+    }
+    .schedule-box button{
+        color: white;
+        font-size: 1vw;
+        padding: 10% 10%;
+        border-radius: 5px;
+        margin-top: 20%;
     }
 
 }
