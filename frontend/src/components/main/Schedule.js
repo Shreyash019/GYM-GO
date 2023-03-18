@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/schedule.css';
+import './css/cardshow.css'
 import schdl from '../img/schdl.gif';
 import { GiBoxingGloveSurprise, Gi3DStairs, GiWeightLiftingUp, GiPerson } from "react-icons/gi";
 import { GrYoga } from "react-icons/gr";
@@ -72,11 +73,15 @@ const Schedule = () => {
   return (
     <div className='schedule-container'>
     <div className='schedule-show'>
-    <div className='schedule-show-left'>
+      <div className='top-card-show-left'>
           <img src={schdl} alt='schedule_gif'/>
+      </div>
+      <div className='top-card-show-right'>
+        <div className='top-card-show-det'>
+          <h1>We Have Best</h1>
+          <h2>Schedules.</h2>          
         </div>
-        <div className='schedule-show-right'>
-        </div>
+      </div>
     </div>
     <div className='schedule-box'>
     <h1>Schedules</h1>

@@ -16,7 +16,7 @@
     color: white;
 }
 .trainer-show-left img{
-    margin: 3.8% 0% 0% 38%;
+    margin: 3.8% 0% 0% 30%;
     width: 60%;
     float:left;
     color: white;
@@ -26,6 +26,20 @@
     float:left;
     color: white;
 }
+.show-right-det{
+    width: 75%;
+    margin: 25% 25% 0% 0%;
+}
+.show-right-det h1{
+font-size: 2.5vw;
+margin: 2% 0%;
+}
+.show-right-det h2{
+    font-size: 2vw;
+    }
+    .show-right-det h3{
+        font-size: 1.5vw;
+        }
 .trainer-box{
     background-color: white;
     width:100%;

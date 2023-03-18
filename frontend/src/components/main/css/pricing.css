@@ -11,19 +11,11 @@
     background-color: #E4ECED;
 }
     .pring-show-left{
-        width:50%;
-        float:left;
+
     }
-    .pring-show-left img{
-        margin: 0% 0% 0% 0%;
-        width: 100%;
-        float:left;
-        color: white;
-    }
+
     .pring-show-right{
-        width:50%;
-        float:left;
-        color: white;
+
     }
 
 .pricing-box{
