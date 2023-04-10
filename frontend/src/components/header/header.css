@@ -6,19 +6,16 @@
     float: left;
     top:0;
 }
-
 .head-left{
     width: 30%;
     height:auto;
     float: left;
 }
-
 .head-left p{
     color: white;
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-weight: 700;
     font-style:unset;
-    margin:3% 0% 5% 40%;
 }
 .head-left a{
     color: white;
@@ -34,12 +31,12 @@
     height:auto;
     float: left;
     display: flex;
+    margin: 0% 0% 0% 10%;
 }
 .head-right p{
     color: white;
     font-size: 1em;
     font-style:normal;
-    margin: 4% 2% 4.1% 2%;
 }
 .head-right a{
     color: white;
@@ -87,33 +84,18 @@
     }
 }
 
-@media screen and (min-width: 900px) {
-    .head-left{
-        width: 20%;
-    }
-    
-    .head-left p{
-        font-size: 3vw;
-        margin:6% 0% 4% 20%;
-    }
-    .head-right p{
-        font-size: 1.6vw;
-        margin: 4.1% 2% 3% 2%;
-    }
-}
 
-
-@media screen and (min-width: 1200px) { 
+@media screen and (min-width: 900px) { 
     .head-left p{
         font-size: 1.8em;
-        margin:6% 0% 4% 40%;
+        margin:3.2% 0% 4% 40%;
     }
     .head-right{
         width: 40%;
     }
     .head-right p{
         font-size: 1em;
-        margin: 4.1% 2% 3% 2%;
+        margin: 3% 2% 3% 2%;
     }
 }
 

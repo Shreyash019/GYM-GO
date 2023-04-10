@@ -1,7 +1,6 @@
 import React from 'react';
 import './css/pricing.css';
-import './css/cardshow.css'
-import prce from '../img/prce.gif'
+import './css/topbox.css';
 
 const Pricing = () => {
 
@@ -46,19 +45,10 @@ const Pricing = () => {
 
   return (
     <div className='pricing-container'>
-      <div className='pring-show-top'>
-        <div className='top-card-show-left'>
-          <img src={prce} alt='pricing_gif'/>
-        </div>
-        <div className='top-card-show-right'>
-          <div className='top-card-show-det'>
-            <h1>We Have Best And</h1>
-            <h2>Affordable Range of Plans.</h2>
-          </div>
-        </div>
+      <div className='top-show-box'>
+        <h1>Pricing</h1>
       </div>
       <div className='pricing-box'>
-        <h1>Pricing</h1>
         {
           objPrice.map((data)=>{
             return (

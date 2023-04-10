@@ -1,0 +1,13 @@
+.top-show-box{
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.top-show-box h1{
+    color: white;
+    font-size: 3.5vw;
+}

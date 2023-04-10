@@ -1,8 +1,9 @@
 import React from 'react';
 import './css/trainer.css';
+import './css/topbox.css';
 import { BsFacebook,BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
-import trainer1 from '../img/trainer1.png';
+
 
 const Trainer = () => {
   const objTrainer = [
@@ -72,18 +73,8 @@ const Trainer = () => {
   
   return (
     <div className='trainer-containers'>
-      <div className='trainer-show'>
-        <div className='trainer-show-left'>
-          <img src={trainer1} alt='trainer'/>
-        </div>
-        <div className='trainer-show-right'>
-          <div className='show-right-det'>
-            <h2>Ready to get in shape?</h2>
-            <h1>Join our fitness community today!</h1>
-            <h3>We love helping people reach their fitness goals!</h3>
-          </div>
-
-        </div>
+      <div className='top-show-box'>
+        <h1>Trainers</h1>
       </div>
       <div className='trainer-box'>
         <h1>Trainers</h1>

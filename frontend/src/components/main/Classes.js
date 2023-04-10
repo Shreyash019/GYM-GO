@@ -8,14 +8,14 @@ import powerlifting from '../img/powerlifting.png';
 import workout from '../img/workout.png';
 import cardio from '../img/cardio.png';
 import yoga from '../img/yoga.png';
+import './css/topbox.css'
 
 
 const Classes = () => {
   return (
     <div className='classes-container'>
-      <div className='classes-title'>
-        <h2>OUR CLASSES</h2>
-        <p>We Are Offering Best Flexible Classes</p>
+      <div className='top-show-box'>
+        <h1>Classes</h1>
       </div>
       <div className='classes-card-conatiner'>
         <div className='classes-card' style={{backgroundImage: `url(${cycling})`}}>

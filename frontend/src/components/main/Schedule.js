@@ -1,12 +1,11 @@
 import React from 'react';
 import './css/schedule.css';
-import './css/cardshow.css'
-import schdl from '../img/schdl.gif';
 import { GiBoxingGloveSurprise, Gi3DStairs, GiWeightLiftingUp, GiPerson } from "react-icons/gi";
 import { GrYoga } from "react-icons/gr";
 import { BiCycling } from "react-icons/bi";
 import { CgGym } from "react-icons/cg";
 import { FaRunning, FaSwimmer } from "react-icons/fa";
+import './css/topbox.css';
 
 // import {CreateContext} from '../DataContext';
 
@@ -72,17 +71,9 @@ const Schedule = () => {
 
   return (
     <div className='schedule-container'>
-    <div className='schedule-show'>
-      <div className='top-card-show-left'>
-          <img src={schdl} alt='schedule_gif'/>
+      <div className='top-show-box'>
+        <h1>Schedules</h1>
       </div>
-      <div className='top-card-show-right'>
-        <div className='top-card-show-det'>
-          <h1>We Have Best</h1>
-          <h2>Schedules.</h2>          
-        </div>
-      </div>
-    </div>
     <div className='schedule-box'>
     <h1>Schedules</h1>
     <br/>
