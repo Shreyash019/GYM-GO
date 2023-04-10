@@ -1,39 +1,9 @@
-.classes-container{
-    width:100%;
-    height:auto;
-    overflow: auto;
-}
-.classes-card-conatiner{
-    width:60%;
-    height: auto;
-    float: left;
-    margin: 2% 20% 5% 20%;
-}
-.classes-card{
-    width: 21%;
-    height: 19vw;
-    background-color: black;
-    color: white;
-    float: left;
-    margin: 2%  6%;
-    border-radius: 5px;
-    background-size:  100% 100%;                                      
-    background-repeat:   no-repeat;
-    background-position: center center;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column; 
-    box-shadow: 0 2px 4px 0 rgb(133, 48, 48);
-}
-.classes-card:hover{
-    box-shadow: 1px 8px 16px 0 rgba(125, 67, 67, 0.998);
-}
 .class-card-details{
     width: 80%;
     margin: 85% 10% 0% 10%;
     float:left;
 }
-.classes-card hr{
+.class-card-details hr{
     width:35%;
     height:3px;
     margin: 2% 0%;
@@ -41,179 +11,91 @@
     border: none;
     border-radius: 2px;;
 }
-.classes-card h3{
+.class-card-details h3{
     font-size: 1.4vw;
     margin: 1% 0%;
 }
-.classes-card span{
+.class-card-details span{
     font-size: 1vw;
     margin: 1% 0% 2% 0%;
 }
-.classes-card p{
+.class-card-details p{
     font-size: 0.85vw;
     margin: 1% 0% 0% 0%;
-}
-.classes-card button{
-    background-color: white;
-    color: black;
-    margin: 4% 0% 8% 0%;
-    padding:1% 5%;
-    font-size: 1vw;
-    border: none;
-    border-radius: 3px;;
-}
-.classes-card button:hover{
-    color: rgb(255, 0, 0);
 }
 
 /* Mobiles */
 @media screen and (max-width: 600px) {
-    .classes-card-conatiner{
-        width: 70%;
-        margin: 5% 15% 25% 15%;
-    }
-    .classes-card{
-        width: 44%;
-        height: auto;
-        height: 52vw;
-        margin: 3% 3% 3% 3%;
-    }
-    .classes-card h3{
+    .class-card-details h3{
         font-size: 3.5vw;
         margin: 1% 0%;
     }
-    .classes-card span{
+    .class-card-details span{
         font-size: 3vw;
         margin: 2% 0%;
     }
     
-    .classes-card p{
+    .class-card-details p{
         font-size: 2.5vw;
         margin: 1% 0% 0% 0%;
-    }
-    
-    .classes-card button{
-        background-color: white;
-        color: black;
-        margin: 2% 0% 10%;
-        padding:3% 5%;
-        font-size: 50%;
-        border: none;
-        border-radius: 2px;;
     }
 }
 
 /* Tablet */
 @media screen and (min-width: 600px) {
-    .classes-card-conatiner{
-        width: 70%;
-        margin: 5% 15% 25% 15%;
-    }
-    .classes-card{
-        width: 40%;
-        height: auto;
-        height: 42vw;
-        margin: 3% 5% 3% 5%;
-    }
-    .classes-card h3{
+    .class-card-details h3{
         font-size: 3.5vw;
         margin: 1% 0%;
     }
-    .classes-card span{
+    .class-card-details span{
         font-size: 3vw;
         margin: 2% 0%;
     }
     
-    .classes-card p{
+    .class-card-details p{
         font-size: 2.5vw;
         margin: 1% 0% 0% 0%;
-    }
-    
-    .classes-card button{
-        background-color: white;
-        color: black;
-        margin: 2% 0% 10%;
-        padding:3% 5%;
-        font-size: 50%;
-        border: none;
-        border-radius: 2px;;
     }
 }
 
 /* Big-Mobiles */
 @media screen and (min-width: 900px) {
-    .classes-card-conatiner{
-        width: 70%;
-        margin: 5% 15% 25% 15%;
-    }
-    .classes-card{
-        width: 44%;
-        height: 45vw;
-        margin: 3% 3% 3% 3%;
-    }
-    .classes-card h3{
+    .class-card-details h3{
         font-size: 3.5vw;
         margin: 1% 0%;
     }
-    .classes-card span{
+    .class-card-details span{
         font-size: 3vw;
         margin: 2% 0%;
     }
     
-    .classes-card p{
+    .class-card-details p{
         font-size: 2.5vw;
         margin: 1% 0% 0% 0%;
-    }
-    
-    .classes-card button{
-        background-color: white;
-        color: black;
-        margin: 3% 0% 10%;
-        padding:1.5% 5%;
-        font-size: 2vw;
     }
 }
 
 @media screen and (min-width:1200px) {
-    .classes-card-conatiner{
-        width:60%;
-        height: auto;
-        float: left;
-        margin: 2% 20% 5% 20%;
-    }
-    .classes-card{
-        width: 21%;
-        height: 19vw;
-        margin: 2%  6%;
-    }
     .class-card-details{
         width: 80%;
         margin: 85% 10% 0% 10%;
         float:left;
     }
-    .classes-card hr{
+    .class-card-details hr{
         width:35%;
         height:3px;
         margin: 2% 0%;
     }
-    .classes-card h3{
+    .class-card-details h3{
         font-size: 1.4vw;
         margin: 1% 0%;
     }
-    .classes-card span{
+    .class-card-details span{
         font-size: 1vw;
         margin: 1% 0% 2% 0%;
     }
-    .classes-card p{
+    .class-card-details p{
         font-size: 0.85vw;
         margin: 1% 0% 0% 0%;
-    }
-    .classes-card button{
-        margin: 4% 0% 8% 0%;
-        padding:1% 5%;
-        font-size: 1vw;
-    }
-    .classes-card button:hover{
-        color: rgb(255, 0, 0);
     }
 }

@@ -1,0 +1,128 @@
+.parent-box-card{
+    width:100%;
+    height:auto;
+    overflow: auto;
+}
+.card-conatiner{
+    height: auto;
+    float: left;
+}
+.card-box{
+    width: 21%;
+    height: 19vw;
+    background-color: black;
+    color: white;
+    float: left;
+    margin: 2%  6%;
+    border-radius: 5px;
+    background-size:  100% 100%;                                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column; 
+    box-shadow: 0 2px 4px 0 rgb(133, 48, 48);
+}
+.card-box:hover{
+    box-shadow: 1px 8px 16px 0 rgba(125, 67, 67, 0.998);
+}
+.card-box button{
+    background-color: white;
+    color: black;
+    margin: 4% 0% 8% 0%;
+    padding:1% 5%;
+    font-size: 1vw;
+    border: none;
+    border-radius: 3px;;
+}
+.card-box button:hover{
+    color: rgb(255, 0, 0);
+}
+
+/* Mobiles */
+@media screen and (max-width: 600px) {
+    .card-conatiner{
+        width: 70%;
+        margin: 5% 15% 25% 15%;
+    }
+    .card-box{
+        width: 44%;
+        height: auto;
+        height: 52vw;
+        margin: 3% 3% 3% 3%;
+    }
+    .card-box button{
+        background-color: white;
+        color: black;
+        margin: 2% 0% 10%;
+        padding:3% 5%;
+        font-size: 50%;
+        border: none;
+        border-radius: 2px;;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+    .card-conatiner{
+        width: 70%;
+        margin: 5% 15% 25% 15%;
+    }
+    .card-box{
+        width: 40%;
+        height: auto;
+        height: 42vw;
+        margin: 3% 5% 3% 5%;
+    }
+    .card-box button{
+        background-color: white;
+        color: black;
+        margin: 2% 0% 10%;
+        padding:3% 5%;
+        font-size: 50%;
+        border: none;
+        border-radius: 2px;;
+    }
+}
+
+/* Big-Mobiles */
+@media screen and (min-width: 900px) {
+    .card-conatiner{
+        width: 70%;
+        margin: 5% 15% 25% 15%;
+    }
+    .card-box{
+        width: 44%;
+        height: 45vw;
+        margin: 3% 3% 3% 3%;
+    }
+    .card-box button{
+        background-color: white;
+        color: black;
+        margin: 3% 0% 10%;
+        padding:1.5% 5%;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .card-conatiner{
+        width:60%;
+        height: auto;
+        float: left;
+        margin: 2% 20% 5% 20%;
+    }
+    .card-box{
+        width: 21%;
+        height: 19vw;
+        margin: 2%  6%;
+    }
+    .card-box button{
+        margin: 4% 0% 8% 0%;
+        padding:1% 5%;
+        font-size: 1vw;
+    }
+    .card-box button:hover{
+        color: rgb(255, 0, 0);
+    }
+}

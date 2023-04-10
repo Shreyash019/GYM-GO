@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/trainer.css';
+import './css/cardcontainer.css';
 import './css/topbox.css';
 import { BsFacebook,BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
@@ -72,29 +72,25 @@ const Trainer = () => {
 
   
   return (
-    <div className='trainer-containers'>
+    <div className='parent-box-card'>
       <div className='top-show-box'>
         <h1>Trainers</h1>
       </div>
-      <div className='trainer-box'>
-        <h1>Trainers</h1>
-        <div className='trainer-details'>
+        <div className='card-conatiner'>
         { 
           objTrainer.map((data) =>{
           return (
-            <div className='trainer-card' key={data.id}>
+            <div className='card-box'style={{backgroundColor: "white"}} key={data.id}>
             <img src={data.avatar} alt={data.avatar}/>
             <h2>{data.name}</h2>
             <span><BsFacebook/></span>
             <span><AiFillInstagram/></span>
             <span><BsLinkedin/></span>
-            <p>{data.summary}</p>
           </div>
           )
           })
         }
         </div>
-      </div>
     </div>
   )
 }
