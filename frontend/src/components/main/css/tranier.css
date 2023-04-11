@@ -1,0 +1,119 @@
+.parent-box-card{
+    width:100%;
+    height:auto;
+    overflow: auto;
+}
+.card-conatiner{
+    height: auto;
+    float: left;
+}
+.card-box1{
+    width: 21%;
+    height: 19vw;
+    color: white;
+    float: left;
+    margin: 2%  6%;
+    border-radius: 5px;
+    text-align: center;
+}
+.trainer-details img{
+    width: 90%;
+    height:150px;
+    margin: 5% 5%;
+    background-color: red;
+    border-radius: 35% 60% 20% 20%;
+}
+span{
+    color: rgb(0, 0, 0);
+    margin: 0% 3%;
+}
+
+
+
+/* Mobiles */
+@media screen and (max-width: 600px) {
+    .card-conatiner{
+        width: 70%;
+        margin: 5% 15% 25% 15%;
+    }
+    .card-box1{
+        width: 44%;
+        height: auto;
+        height: 52vw;
+        margin: 3% 3% 3% 3%;
+    }
+    .card-box1 button{
+        background-color: white;
+        color: black;
+        margin: 2% 0% 10%;
+        padding:3% 5%;
+        font-size: 50%;
+        border: none;
+        border-radius: 2px;;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+    .card-conatiner{
+        width: 70%;
+        margin: 5% 15% 25% 15%;
+    }
+    .card-box1{
+        width: 40%;
+        height: auto;
+        height: 42vw;
+        margin: 3% 5% 3% 5%;
+    }
+    .card-box1 button{
+        background-color: white;
+        color: black;
+        margin: 2% 0% 10%;
+        padding:3% 5%;
+        font-size: 50%;
+        border: none;
+        border-radius: 2px;;
+    }
+}
+
+/* Big-Mobiles */
+@media screen and (min-width: 900px) {
+    .card-conatiner{
+        width: 70%;
+        margin: 5% 15% 25% 15%;
+    }
+    .card-box1{
+        width: 44%;
+        height: 45vw;
+        margin: 3% 3% 3% 3%;
+    }
+    .card-box1 button{
+        background-color: white;
+        color: black;
+        margin: 3% 0% 10%;
+        padding:1.5% 5%;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .card-conatiner{
+        width:60%;
+        height: auto;
+        float: left;
+        margin: 2% 20% 5% 20%;
+    }
+    .card-box1{
+        width: 21%;
+        height: 19vw;
+        margin: 2%  6%;
+    }
+    .card-box1 button{
+        margin: 4% 0% 8% 0%;
+        padding:1% 5%;
+        font-size: 1vw;
+    }
+    .card-box1 button:hover{
+        color: rgb(255, 0, 0);
+    }
+}

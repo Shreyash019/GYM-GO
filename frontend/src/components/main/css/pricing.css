@@ -100,9 +100,6 @@
         width: 80%;
         margin: 5% 10%;
     } 
-    .pricing-box h1{
-        font-size: 7vw;
-    }
     .pricing-card{
         width: 60%;
         height: auto;
@@ -153,9 +150,6 @@
         width: 70%;
         margin: 5% 15%;
     } 
-    .pricing-box h1{
-        font-size: 6vw;
-    }
     .pricing-card{
         width: 40%;
         height: auto;
@@ -191,9 +185,6 @@
 
 
 @media screen and (min-width: 900px) {
-    .pricing-box h1{
-        font-size: 3vw;
-    }
     .pricing-card{
         width: 25%;
         margin: 5% 4% 2% 4%;            
@@ -224,9 +215,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .pricing-box h1{
-        font-size: 3vw;
-    }
     .pricing-card{
         width: 25%;
         margin: 5% 4% 2% 4%;            

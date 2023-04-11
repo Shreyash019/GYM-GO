@@ -4,9 +4,9 @@
     overflow: auto;
 }
 .detail-card-container-top{
-    width: 80%;
+    width: 75%;
     height:auto;
-    margin:0% 10%;
+    margin:0% 12.5%;
     float: left;
 }
 .detail-card-content{
@@ -26,15 +26,6 @@
 .detail-card-container-bottom{
     width:100%;
     height: auto;
-    float: left;
-}
-.bottom-deatil-head{
-            background-color: red;
-            color:white;
-            font-weight: 900;;
-            border-radius: 5px 10px 20px 15px;
-}
-.gym-detail-icon{
     float: left;
 }
 .bottom-detail-top-left button{
@@ -57,10 +48,10 @@
             border-left: 0px;
 }
 .bottom-detail-top-left a{
-            color: white;
+    color: white;
 }
 .bottom-detail-top-left a:hover{
-            color: rgb(0, 255, 251);
+    color: rgb(0, 255, 251);
 }       
 .bottom-detail-top-right{
             width:48%;
@@ -73,14 +64,16 @@
                 height: auto;
                 margin: 0% 0%;
 }
-.bottom-detail-bottom{
-        width:60%;
-        height: 300px;
-        float: left;
-        margin: 1% 20%;
-        background-color: white;
-}
 
+.text-display{
+    display: flex;
+    text-align: center;
+    margin: 10% 0%;
+}
+.text-display h1{
+    color: red;
+    font-size: 8vw;
+}
 
 /* Mobile */
 @media screen and (max-width: 600px) {
@@ -90,20 +83,6 @@
         float: left;
         margin: 15% 50% 0% 15%;
     }
-    .detail-card-content h6{
-        color: red;
-        font-size: 15vw;
-    }
-    .detail-card-content h1{
-        color: black;
-        margin: 2% 5%;
-        font-size: 4vw;
-    }
-    .detail-card-content p{
-        color: black;
-        margin:5% 5% 15% 5%;
-        font-size: 3vw;
-    }
     .bottom-detail-top{
         width:100%;
         margin: 10% 0%;
@@ -111,33 +90,6 @@
     .bottom-detail-top-left{
         width:70%;
         margin: 10% 15%;
-    }
-    .bottom-deatil-head{
-        font-size: 1.2em;
-        padding: 2% 5%;
-    }
-    .bottom-detail-top-left h1{
-        margin: 10% 0% 5% 0%;
-        font-size: 125%;
-        color: black;
-    }
-    .bottom-detail-top-left p{
-        margin: 0% 5% 5% 0%;
-        color: black;
-        font-size: 90%;
-    }
-    .gym-detail-icon{
-        width:20%;
-        margin: 5% 6% 10% 6%;
-        float: left;
-        text-align: center;
-    }
-    .gym-detail-icon h6{
-        font-size:350%;
-        color: red;
-    }
-    .gym-detail-icon h4{
-        font-size:2vw;
     }
     .bottom-detail-top-left button{
         font-size: 90%;
@@ -174,20 +126,6 @@
         width: 60%;
         margin: 10% 20% 0% 20%;
     }
-    .detail-card-content h6{
-        color: red;
-        font-size: 13.5vw;
-    }
-    .detail-card-content h1{
-        color: black;
-        margin: 2% 5%;
-        font-size: 4vw;
-    }
-    .detail-card-content p{
-        color: black;
-        margin:5% 10% 15% 10%;
-        font-size: 3vw;
-    }
     .bottom-detail-top{
         width:100%;
         margin: 10% 0%;
@@ -196,31 +134,6 @@
         width:70%;
         margin: 5% 15%;
         text-align: center;
-    }
-    .bottom-deatil-head{
-        font-size: 3vw;
-        padding: 1% 4%;
-    }
-    .bottom-detail-top-left h1{
-        margin: 8% 0% 5% 0%;
-        font-size: 3vw;
-        color: black;
-    }
-    .bottom-detail-top-left p{
-        font-size: 2.5vw;
-        margin: 3% 6%;
-        color: black;
-    }
-    .gym-detail-icon{
-        width:25%;
-        margin: 5% 4.1% 10% 4.2%;
-    }
-    .gym-detail-icon h6{
-        font-size:12vw;
-        color: red;
-    }
-    .gym-detail-icon h4{
-        font-size:2vw;
     }
     .bottom-detail-top-left button{
         font-size: 2.5vw;
@@ -251,20 +164,6 @@
         width: 40%;
         margin: 5% 5% 0% 5%;
     }
-    .detail-card-content h6{
-        color: red;
-        font-size: 10vw;
-    }
-    .detail-card-content h1{
-        color: black;
-        margin: 2% 5%;
-        font-size: 3vw; 
-    }
-    .detail-card-content p{
-        color: black;
-        margin:5% 10% 15% 10%;
-        font-size: 2vw;
-    }
     .bottom-detail-top{
         width:100%;
         margin: 10% 0%;
@@ -273,31 +172,6 @@
         width:70%;
         margin: 5% 15%;
         text-align: center;
-    }
-    .bottom-deatil-head{
-        font-size: 3vw;
-        padding: 1% 4%;
-    }
-    .bottom-detail-top-left h1{
-        margin: 8% 0% 5% 0%;
-        font-size: 3vw;
-        color: black;
-    }
-    .bottom-detail-top-left p{
-        font-size: 2.5vw;
-        margin: 3% 6%;
-        color: black;
-    }
-    .gym-detail-icon{
-        width:25%;
-        margin: 5% 4.1% 10% 4.2%;
-    }
-    .gym-detail-icon h6{
-        font-size:12vw;
-        color: red;
-    }
-    .gym-detail-icon h4{
-        font-size:2vw;
     }
     .bottom-detail-top-left button{
         font-size: 2.5vw;
@@ -325,25 +199,10 @@
 @media screen and (min-width: 1200px) {
     .detail-card-content{
             width: 27.3%;
-            min-height:250px;
+            min-height:200px;
             float: left;
             margin: 3% 3%;
     }
-    .detail-card-content h6{
-            color: red;
-            font-size: 12vh;
-            margin: 5% 0% 0% 0%;
-    }
-    .detail-card-content h1{
-            color: black;
-            margin: 2% 0%;
-            font-size: 1.8vw;
-    }
-    .detail-card-content p{
-            color: black;
-            margin:1% 9% 15%;
-            font-size: 1.2vw;
-    }   
     .detail-card-container-bottom{
         width:100%;
         height: auto;
@@ -362,33 +221,6 @@
         float: left;
         margin: 0% 0%;
         text-align: left;
-    }
-    .bottom-deatil-head{
-        font-size: 2vw;
-        padding: 0.5% 4%;
-    }
-    .bottom-detail-top-left h1{
-        margin: 5% 0% 5% 0%;
-        color: black;
-        font-size: 2.1vw;
-    }
-    .bottom-detail-top-left p{
-        margin: 0% 0% 5% 0%;
-        font-size: 1.3vw;
-        color: black;
-    }
-    .bottom-detail-top-left h4{
-        font-size: 1vw;
-    }
-    .gym-detail-icon{
-        width:20%;
-        margin: 5% 0% 10% 10%;
-        float: left;
-        text-align: center;
-    }
-    .gym-detail-icon h6{
-        font-size: 6vw;
-        color: red;
     }
     .bottom-detail-top-left button{
                 background-color: black;

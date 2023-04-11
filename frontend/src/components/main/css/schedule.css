@@ -73,9 +73,6 @@
         width: 75%;
         margin: 10% 12.5%;
     }
-    .schedule-box h1{
-        font-size: 5vw;
-    }
     .schedule-box h5{
         font-size: 1.9vw;
         color: rgb(4, 4, 137);
@@ -98,9 +95,6 @@
         width: 70%;
         margin: 10% 15%;
     }
-    .schedule-box h1{
-        font-size: 5vw;
-    }
     .schedule-box h5{
         font-size: 1.5vw;
         color: rgb(4, 4, 137);
@@ -121,9 +115,6 @@
     .schedule-box{
         width: 70%;
         margin: 10% 15%;
-    }
-    .schedule-box h1{
-        font-size: 4vw;
     }
     .schedule-box h5{
         font-size: 1.5vw;
@@ -146,9 +137,6 @@
     .schedule-box{
         width: 60%;
         margin: 10% 20%;
-    }
-    .schedule-box h1{
-        font-size: 3vw;
     }
     .schedule-box h5{
         font-size: 1.2vw;

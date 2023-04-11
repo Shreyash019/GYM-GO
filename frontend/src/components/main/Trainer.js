@@ -1,6 +1,6 @@
 import React from 'react';
-import './css/cardcontainer.css';
 import './css/topbox.css';
+import './css/tranier.css';
 import { BsFacebook,BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 
@@ -80,13 +80,16 @@ const Trainer = () => {
         { 
           objTrainer.map((data) =>{
           return (
-            <div className='card-box'style={{backgroundColor: "white"}} key={data.id}>
-            <img src={data.avatar} alt={data.avatar}/>
-            <h2>{data.name}</h2>
-            <span><BsFacebook/></span>
-            <span><AiFillInstagram/></span>
-            <span><BsLinkedin/></span>
-          </div>
+            <div className='card-box1 trainer-details'style={{backgroundColor: "white"}} key={data.id}>
+              <img src={data.avatar} alt={data.avatar}/>
+              <h3 style={{margin: "0% 0% 5%", color: "black"}}>{data.name}</h3>
+              <div className='.trainer-details-span'>              
+                <span><BsFacebook/></span>
+                <span><AiFillInstagram/></span>
+                <span><BsLinkedin/></span>
+              </div>
+
+            </div>
           )
           })
         }
