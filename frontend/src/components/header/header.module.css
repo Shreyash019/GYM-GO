@@ -1,0 +1,102 @@
+.headerContainer{
+    background-color: black;
+    width: 100%;
+    height:auto;
+    position: sticky;
+    float: left;
+    top:0;
+}
+.headerLeft{
+    height:auto;
+    float: left;
+}
+.headerLeft p{
+    font-weight: 700;
+}
+.headerLeft a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.headerLeft a:hover{
+    color: yellow;
+}
+
+.headerRight{
+    height:auto;
+    float: left;
+    display: flex;
+    
+}
+.headerRight p{
+    color: white;
+}
+.headerRight a{
+    color: white;
+    font-weight: 700;
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+.headerRight a:hover{
+    color: red;
+}
+
+
+@media screen and (max-width: 600px) {
+    .headerLeft{
+        width: 30%;
+    }
+    .headerLeft p{
+        font-size: 0.8em;
+        text-align: center;
+        padding: 3.5% 0%;
+    }
+    .headerRight{
+        width: 40%;
+    }
+    .headerRight p{
+        font-size: 0.6em;
+        padding: 4% 1.5%;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .headerLeft{
+        width: 30%;
+    }
+    .headerLeft p{
+        font-size: 0.9em;
+        text-align: center;
+        padding: 3.5% 0%;
+    }
+    .headerRight{
+        width: 40%;
+    }
+    .headerRight p{
+        font-size: 0.7em;
+        padding: 4% 1.5%;
+    }
+}
+
+
+@media screen and (min-width: 900px) { 
+    .headerLeft{
+        width: 30%;
+    }
+    .headerLeft p{
+        font-size: 2em;
+        text-align: center;
+        padding: 1.5% 0%;
+    }
+    .headerRight{
+        width: 40%;
+    }
+    .headerRight p{
+        font-size: 1.2em;
+        padding: 2.5% 2.5%;
+    }
+}
+

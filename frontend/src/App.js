@@ -4,7 +4,7 @@ import Header from './components/header/Header';
 import About from './components/main/About';
 import Home from './components/main/Home';
 import Gallery from './components/main/Gallery';
-import Classes from './components/main/Classes';
+import Classes from './components/main/classes/Classes';
 import Trainer from './components/main/Trainer';
 import Pricing from './components/main/Pricing';
 import Schedule from './components/main/Schedule';

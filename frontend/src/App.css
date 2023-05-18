@@ -1,7 +1,9 @@
 * {
   padding: 0%;
   margin:0%;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: candara; */
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 /* width */

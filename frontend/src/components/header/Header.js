@@ -1,14 +1,14 @@
 import React from 'react';
-import './header.css';
+import headerCSS from './header.module.css';
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-  <div className='header-container'>
-    <div className='head-left'>
+  <div className={headerCSS.headerContainer}>
+    <div className={headerCSS.headerLeft}>
       <p><Link to='/'>GYM-GO</Link></p>
     </div>
-    <div className='head-right'>
+    <div className={headerCSS.headerRight}>
       <p><Link to="/">Home</Link></p>
       {/* <p><Link to="/about" component={About}>About</Link></p> */}
       <p><Link to="/gallery">Gallery</Link></p>

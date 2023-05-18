@@ -1,4 +1,4 @@
-.footer-container{
+.footerContainer{
     background-color: rgb(253, 228, 228);
     background-image: linear-gradient(to right, rgb(254, 215, 215) , rgb(255, 242, 242));
     color: black;
@@ -6,33 +6,38 @@
     height:auto;
     overflow: auto;
 }
-.footer-box{
+.footerBox{
     width:80%;
     height:auto;
     overflow: auto;
     margin:1% 10% 2%;
 }
-h1{
+.footerContainer h1{
     margin: 1% 0%;
     color: black;
     font-size: 2em;
 }
-h2{
+.footerContainer h2{
     margin: 5% 0% 2%;
     color: black;
     font-size: 1.4em;
 }
-h5 p{
+.footerContainer h5{
     margin: 2% 0%;
     color: black;
     font-size: 0.9em;
 }
-span{
-    margin: 3% 10% 0% 0%;
+.footerContainer p{
+    margin: 2% 0%;
+    color: black;
+    font-size: 0.9em;
+}
+.footerContainer span{
+    margin: 2% 10% 0% 0%;
     color: black;
     font-size: 1.4em;
 }
-hr{
+.footerContainer hr{
     width:30%;
     height:5px;
     background-color: red;
@@ -42,19 +47,19 @@ hr{
 }
 
 
-.footer-left{
+.footerLeft{
     width: 30%;
     height: auto;
     float:left;
     margin: 0% 10% 0% 0%; 
 }
-.footer-mid{
+.footerMid{
     width: 25%;
     height: auto;
     float:left;
     margin: 0% 10% 0% 0%; 
 }
-.footer-right{
+.footerRight{
     width: 25%;
     height: auto;
     float:left;
@@ -62,37 +67,36 @@ hr{
 
 
 @media screen and (max-width:600px) {
-    .footer-box{
+    .footerBox{
         width:84%;
         margin:2% 8%;
     }
-    hr{
+    .footerContainer hr{
         width:35%;
         height:5px;
     }
-    h1{
+    .footerContainer h1{
         font-size: 5vw;
     }
-    h2{
+    .footerContainer h2{
         font-size: 2.5vw;
-        color: blue;
     }
-    span{
+    .footerContainer span{
         margin: 5% 5% 0% 0%;
         font-size: 5vw;
     }
-    p, h5{
+    .footerContainer p, h5{
         padding: 2% 0%;
         font-size: 2.5vw;
     }
-    .footer-left{
+    .footerLeft{
         width: 40%;
         margin: 3% 5% 10% 0%; 
     }
-    .footer-left p{
+    .footerLeft p{
         margin: -3% 0% 5%; 
     }
-    .footer-mid, .footer-right{
+    .footerMid, .footerRight{
         width: 25%;
         margin: 5.8% 0%;
     }

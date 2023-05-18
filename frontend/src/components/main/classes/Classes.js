@@ -1,15 +1,15 @@
 import React from 'react';
 import './css/classes.css';
-import './css/cardcontainer.css';
-import './css/topbox.css';
-import cycling from '../img/cycling.png';
-import running from '../img/running.png';
-import swimming from '../img/swimming.png';
-import boxing from '../img/boxing.png';
-import powerlifting from '../img/powerlifting.png';
-import workout from '../img/workout.png';
-import cardio from '../img/cardio.png';
-import yoga from '../img/yoga.png';
+import '../css/cardcontainer.css';
+import '../css/topbox.css';
+import cycling from '../../img/cycling.png';
+import running from '../../img/running.png';
+import swimming from '../../img/swimming.png';
+import boxing from '../../img/boxing.png';
+import powerlifting from '../../img/powerlifting.png';
+import workout from '../../img/workout.png';
+import cardio from '../../img/cardio.png';
+import yoga from '../../img/yoga.png';
 
 
 
